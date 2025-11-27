@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:27.11.25
+## Register Number:212224040335
+## Name:sudharsan s
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,16 +11,57 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
-
+Develop a smart railway navigation assistant that combines interactive 3D maps, voice guidance, and real-time facility updates to guide passengers efficiently throughout the station. Features will include multi-language support, accessibility features, and integration with existing railway apps for a seamless experience.
 
 ## Proposed Solution / Architecture Diagram
+User Devices (Mobile App / Kiosk) 
+     
+ Navigation Interface (UI/UX)
+       
+ Real-Time Map Engine
+      
+Facility & Location Database
+      
+ Updates API (Integration with Railway Layouts)
+       
+Accessibility & Voice Guidance Module
 
 
 ## Use Cases
+Passenger Locating Facilities:
 
+A traveler arrives at the station and uses the mobile app to find the nearest restroom or food court.
+
+Visually Impaired Navigation:
+
+Voice-guided navigation helps a visually impaired passenger reach the platform safely.
+
+Real-Time Platform Changes:
+
+Passenger receives instant updates if a platform changes due to train rescheduling.
+
+Digital Kiosk Assistance:
+
+New passengers use touch-screen kiosks to locate ticket counters, waiting rooms, or exits.
 
 ## Technology Stack
-
+omponent	Technology
+Frontend	React Native / Flutter (Mobile), HTML5/CSS3/JS (Kiosks)
+Backend	Node.js / Django / Flask
+Database	PostgreSQL / MongoDB
+3D Map Engine	Mapbox / CesiumJS / Three.js
+Voice Guidance	Google Text-to-Speech API / Amazon Polly
+APIs	Railway Layout Updates, Ticketing, Train Schedules
+Deployment	AWS / Azure / Railway Servers
+Accessibility	WCAG-compliant UI, multi-language support
 
 ## Dependencies
+Accurate railway station maps and layouts
 
+Regular updates from railway authorities
+
+Integration with existing railway apps for scheduling and ticketing
+
+Internet connectivity for real-time updates
+
+Accessibility guidelines compliance
